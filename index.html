@@ -6,6 +6,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YachtJet</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
@@ -28,38 +36,47 @@
       </ul>
     </header>
     <main>
-      <section>
-        <h2>Benefits</h2>
-        <ul>
-          <li>
-            <h3>01</h3>
-            <p>Swimming and water sports: try your hand at water skiing</p>
-          </li>
-          <li>
-            <h3>02</h3>
-            <p>Fishing: try to catch your own dinner</p>
-          </li>
-          <li>
-            <h3>03</h3>
-            <p>
-              Sightseeing tours: take a shore or island tour, enjoy the views
-              and sunsets from the water
-            </p>
-          </li>
-          <li>
-            <h3>04</h3>
-            <p>
-              Rest and relaxation: read a book or listen to music while enjoying
-              the outdoor atmosphere.
-            </p>
-          </li>
-        </ul>
-        <img
-          src="./images/benefits.jpg"
-          alt="benefits"
-          width="540"
-          height="424"
-        />
+      <section class="benefits">
+        <div class="container benefits-container">
+          <h2 class="benefits-title">Benefits</h2>
+          <div class="benefits-inner">
+            <ul class="benefits-list">
+              <li class="benefits-item">
+                <h3 class="benefits-item-title">01</h3>
+                <p class="benefits-item-text">
+                  Swimming and water sports: try your hand at water skiing
+                </p>
+              </li>
+              <li class="benefits-item">
+                <h3 class="benefits-item-title">02</h3>
+                <p class="benefits-item-text">
+                  Fishing: try to catch your own dinner
+                </p>
+              </li>
+              <li class="benefits-item">
+                <h3 class="benefits-item-title">03</h3>
+                <p class="benefits-item-text">
+                  Sightseeing tours: take a shore or island tour, enjoy the
+                  views and sunsets from the water
+                </p>
+              </li>
+              <li class="benefits-item">
+                <h3 class="benefits-item-title">04</h3>
+                <p class="benefits-item-text">
+                  Rest and relaxation: read a book or listen to music while
+                  enjoying the outdoor atmosphere.
+                </p>
+              </li>
+            </ul>
+            <img
+              src="./images/benefits.jpg"
+              alt="benefits"
+              width="540"
+              height="424"
+              class="benefits-img"
+            />
+          </div>
+        </div>
       </section>
     </main>
   </body>
